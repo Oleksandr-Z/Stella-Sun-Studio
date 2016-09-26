@@ -29,17 +29,28 @@
 }
 
 .iconName {
-    display: block;
+    display: inline-block;
     margin:1.5% 0.8%;
     width:100%;
     font-size:x-large;
     color:#434343;
     font-family:HelveticaNeue;
+    cursor:pointer;
 }
 .iconName::first-letter{
     color:#dfa756;
-
 }
+
+        .selected {
+            color: #dfa756;
+        }
+
+            .selected:first-letter {
+                color: #434343;
+            }
+
+
+
 
 .iconDescription {
     display: block;
