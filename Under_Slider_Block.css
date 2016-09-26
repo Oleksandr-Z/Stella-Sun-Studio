@@ -1,0 +1,52 @@
+﻿@font-face {
+    font-family: 'HelveticaNeue';
+    src: url('../Helvetica/HelveticaNeue.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'HelveticaNeueUltraLight';
+    src: url('../Helvetica/HelveticaNeueUltraLight.ttf') format('truetype');
+}
+
+.generalFrame {
+    margin: 0 auto;
+    width: 100%;
+    font-weight:normal;
+
+}
+
+.what_do {
+    display: inline-block;
+    margin: 1.5% 0.8%;
+    width: 30%;
+    text-align: center;
+    font-weight:normal;
+}
+
+.iconImage {
+    display: block;
+    width:100%;
+    margin:1.5% 0.8%;
+}
+
+.iconName {
+    display: block;
+    margin:1.5% 0.8%;
+    width:100%;
+    font-size:x-large;
+    color:#434343;
+    font-family:HelveticaNeue;
+}
+.iconName::first-letter{
+    color:#dfa756;
+
+}
+
+.iconDescription {
+    display: block;
+    margin:1.5% 0.8%;
+    width:100%;
+    font-size:14pt;
+    font-weight:600;
+    color: darkgray;
+    font-family:HelveticaNeueUltraLight;
+}

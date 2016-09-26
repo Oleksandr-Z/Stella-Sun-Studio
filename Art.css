@@ -1,0 +1,49 @@
+﻿@font-face {
+    font-family: 'HelveticaNeue';
+    src: url('HelveticaNeue.ttf') format('truetype');
+}
+
+.Art {
+    width: 100%;
+    position: relative;
+    top:18vh;
+}
+
+.cardCont {
+    display: inline-block;
+    position: relative;
+    width: 30%;
+}
+
+    .cardCont:first-child, .cardCont:nth-child(4n) {
+        margin-left: 5%;
+    }
+
+
+.card {
+    width: 100%;
+    height: 100%;
+}
+
+    .card img {
+        width: 100%;
+        height: 100%;
+    }
+
+.cardCont span {
+    position: absolute;
+    width: 50%;
+    bottom: 0;
+    float: left;
+    font-size: 1.9vw;
+    font-weight: 300;
+    font-family: HelveticaNeue;
+    color: #dfa756;
+}
+
+    .cardCont span + span {
+        float: right;
+        right: 5%;
+        text-align: right;
+        color: #434343;
+    }
