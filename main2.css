@@ -48,7 +48,7 @@ div.up:hover {
 .photo {
     position: relative;
     width: auto;
-    display: table-cell;
+    display: inline-block;
     text-align: center;
     vertical-align: bottom;
     overflow: hidden;
