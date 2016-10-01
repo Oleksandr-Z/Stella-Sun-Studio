@@ -1,46 +1,8 @@
 ﻿@font-face {
     font-family: 'HelveticaNeueUltraLight';
-    src: url('HelveticaNeueUltraLight.ttf') format('truetype');
+    src: url('../fonts/HelveticaNeueUltraLight.ttf') format('truetype');
 }
 
-div.arrows {
-    position:fixed;
-        bottom: 5%;
-    right: 5%;
-        z-index: 9999;
-        cursor:pointer;
-        opacity:0.3;
-
-}
-div.arrows:hover {
-    opacity:1;
-}
-div.down {
-    width: 45px;
-    height: 49px;
-    position: relative;
-    background-image: url('main1/arrows/down.png');
-    margin:3px;
-}
-div.down:hover {
-    background-size:cover;
-    background-image: url('main1/arrows/down_hover.png');
-}
-
-
-div.up {
-    width: 45px;
-    height: 49px;
-    position: relative;
-    background-image: url('main1/arrows/up.png');
-    margin:3px;
-
-}
-div.up:hover {
-    background-size:cover;
-    background-image: url('main1/arrows/up_hover.png');
-
-}
 
 
 

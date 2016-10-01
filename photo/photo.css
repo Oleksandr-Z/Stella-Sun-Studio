@@ -1,6 +1,6 @@
 ﻿        @font-face {
             font-family: 'HelveticaNeueUltraLight';
-            src: url('HelveticaNeueUltraLight.ttf') format('truetype');
+            src: url('../fonts/HelveticaNeueUltraLight.ttf') format('truetype');
         }
 
         body {

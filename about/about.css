@@ -1,0 +1,141 @@
+﻿@font-face {
+    font-family: 'HelveticaNeue';
+    src: url('../fonts/HelveticaNeue.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'HelveticaNeueUltraLight';
+    src: url('../fonts/HelveticaNeueUltraLight.ttf') format('truetype');
+}
+
+.about-us {
+    margin-top:15px;
+    width:100%;
+    position:relative;
+    top:9.4vw;
+}
+h1 {
+    font-family: 'HelveticaNeueUltraLight';
+    font-weight:900;
+    text-align:center;
+    color:#434343;
+    letter-spacing:2px;
+}
+.pic {
+    margin:10px 0;
+    width:100%;
+    text-align:center;
+}
+.about-us p {
+    text-align:center;
+    width:80%;
+    margin:30px auto;
+        font-family: 'HelveticaNeueUltraLight';
+        font-weight:600;
+    font-size:medium;
+    color:#434343;
+    word-spacing:3px;
+    line-height:25px;
+    
+}
+.big-photo img {
+    width:100%;
+}
+.big-photo h1 {
+   font-size:4vw;
+   position:absolute;
+   margin:120px auto;
+   width:100%;
+   text-align:center;
+   color:#fff;
+   font-weight:100;
+   opacity:0;
+   transition:all 2.5s ease-out;
+}
+.big-photo h1.showtext {
+    opacity:1;
+}
+
+
+.ideas {
+    margin-top:-25px;
+    margin-bottom:35px;
+  background-color:rgb(102,204,102);
+  font-family: 'HelveticaNeueUltraLight';
+  width:100%;
+  padding-bottom:80px;
+  padding-top:20px;
+}
+.ideas h1 {
+    color:#fff;
+    margin-bottom:40px;
+}
+.ideas p {
+        color:#fff;
+
+}
+.ideas p.align-left {
+    text-align:left;
+}
+.links {
+    width:100%;
+    height:600px;
+    margin-bottom:20px;
+    position:relative;
+    margin-top:200px;
+}
+.links ul {
+    font-family:HelveticaNeueUltraLight;
+    font-size:2vw;
+    list-style-type:none;
+}
+.links ul li a{
+    font-family:inherit;
+    color:inherit;
+    text-decoration:none;
+}
+.links ul li:nth-child(1) {
+    font-size:4vw;
+    color:#434343;
+    text-align:center;
+    
+}
+
+.links ul li:nth-child(2) {
+    font-size:7vw;
+    color:#dfa756;
+    position:absolute;
+    top:15%;
+    left:15%;
+    font-weight:600;
+}
+.links ul li:nth-child(3) {
+    font-size:4vw;
+    color:rgb(102,204,102);
+    position:absolute;
+    right:15%;
+    top:10%;
+    font-weight:900;
+}
+.links ul li:nth-child(4) {
+    font-size:7vw;
+    color:rgb(102,204,204);
+    position:absolute;
+    top:30%;
+    right:35%;
+}
+.links ul li:nth-child(5) {
+    font-size:5vw;
+    color:rgb(204,51,0);
+    position:absolute;
+    left:12%;
+    bottom:40%;
+}
+.links ul li:nth-child(6) {
+    font-size:3vw;
+    color:rgb(153,0,204);
+    position:absolute;
+    right:10%;
+    bottom:30%;
+}
+

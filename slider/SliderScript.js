@@ -36,7 +36,7 @@
         timer = setTimeout(slideShow, duration, container, tag, contPag, tagPag, contText, duration); // run all again
 
         function handle() {                            //user navigtion function
-            slieStop();
+            sliedStop();
             par.removeAttr('style').css('display', 'none');
             pg.removeClass('active');
             sl.removeClass('active').fadeOut(1000);
@@ -62,7 +62,7 @@
         };
 
 
-        function slieStop() {             //stop all animations & timers
+        function sliedStop() {             //stop all animations & timers
             sl.stop(true);
             par.stop(true);
             clearTimeout(timer);
