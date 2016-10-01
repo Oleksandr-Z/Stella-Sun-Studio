@@ -1,0 +1,97 @@
+﻿        @font-face {
+            font-family: 'HelveticaNeueUltraLight';
+            src: url('../fonts/HelveticaNeueUltraLight.ttf') format('truetype');
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        .photoSet {
+            display: inline-block;
+            width: 100%;
+            cursor:pointer;
+            position:relative;
+            top:18vh;
+        }
+
+            .photoSet:hover .setCover .caption {
+                opacity: 0;
+            }
+
+        .setCover {
+            position: relative;
+            width: 49.99%;
+            height: 100%;
+            display: block;
+        }
+
+            .setCover:nth-child(odd) {
+                float: left;
+            }
+
+            .setCover:nth-child(even) {
+                float: right;
+            }
+
+            .setCover img {
+                width: 100%;
+                height: 100%;
+                display: inline-block;
+            }
+
+            .setCover .caption {
+                position: absolute;
+                top: 0px;
+                left: 0px;
+                width: 100%;
+                height: 99%;
+                color: #fff;
+                opacity: 1;
+                background: rgba(255, 255, 255, 0.7);
+                -webkit-transition: all 0.3s linear 0s;
+                -o-transition: all 0.3s linear 0s;
+                -moz-transition: all 0.3s linear 0s;
+                transition: all 0.3s linear;
+            }
+
+            .setCover .triangleLeft {
+                position: absolute;
+                right: -2px;
+                top: 45%;
+                width: 50px;
+                height: 50px;
+            }
+
+            .setCover .triangleRight {
+                position: absolute;
+                left: -2px;
+                top: 45%;
+                width: 50px;
+                height: 50px;
+            }
+
+
+        .setDescription {
+            width: 50%;
+            height: 100%;
+            display: inline-block;
+            text-align: center;
+            vertical-align: central;
+        }
+
+        .photoName {
+            margin-top: 30%;
+            font-size: 14pt;
+            font-weight: 600;
+            color: #9f9c9c;
+            font-family: HelveticaNeueUltraLight;
+        }
+
+        .look {
+            font-family: 'HelveticaNeueUltraLight';
+            font-size: 34px;
+            font-weight: 300;
+            color: #9f9c9c;
+        }

@@ -1,8 +1,6 @@
 ﻿/*@import url(http://fonts.googleapis.com/css?family=Lato);*/
 
-body {
-    font-family: 'Roboto', sans-serif;
-}
+
 /* cyrillic-ext */
 @font-face {
   font-family: 'Roboto';
@@ -59,8 +57,53 @@ body {
   src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v15/CWB0XYA8bzo0kSThX0UTuA.woff2) format('woff2');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
 }
+
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
 /*| Давайте знайомитись |*/
 
+div.arrows {
+    position:fixed;
+        bottom: 5%;
+    right: 5%;
+        z-index: 9999;
+        cursor:pointer;
+        opacity:0.3;
+
+}
+div.arrows:hover {
+    opacity:1;
+}
+div.down {
+    width: 45px;
+    height: 49px;
+    position: relative;
+    background-image: url('../arrows/down.png');
+    margin:3px;
+}
+div.down:hover {
+    background-size:cover;
+    background-image: url('../arrows/down_hover.png');
+}
+
+
+div.up {
+    width: 45px;
+    height: 49px;
+    position: relative;
+    background-image: url('../arrows/up.png');
+    margin:3px;
+
+}
+div.up:hover {
+    background-size:cover;
+    background-image: url('../arrows/up_hover.png');
+
+}
 
 
 
@@ -138,7 +181,7 @@ body {
 
 #logo {
     position: relative;
-    margin-left: 500px;
+    margin-left: 38vw;
     top: 40px;
     z-index: 91;
 }

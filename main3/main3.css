@@ -1,0 +1,198 @@
+﻿        body {
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+        }
+
+        @font-face {
+            font-family: 'HelveticaNeue';
+            src: url('../fonts/HelveticaNeue.ttf') format('truetype');
+        }
+
+        @font-face {
+            font-family: 'HelveticaNeueUltraLight';
+            src: url('../fonts/HelveticaNeueUltraLight.ttf') format('truetype');
+        }
+
+        .unicueFutures {
+            margin: 0 auto;
+            width: 100%;
+            font-weight: normal;
+            text-align: center;
+        }
+
+        .unicHeading {
+            display: block;
+            text-align: center;
+            margin: 0.5% 0.8%;
+            width: 100%;
+        }
+
+            .unicHeading h1 {
+                color: #434343;
+                font-family: HelveticaNeue;
+                font-weight: 300;
+                font-size:2.5vw;
+            }
+
+                .unicHeading h1 span.colored {
+                    color: #ff6a00;
+                }
+
+            .unicHeading div {
+                font-size: 1.4vw;
+                color: darkgray;
+                font-family: HelveticaNeueUltraLight;
+            }
+
+        .unicCont {
+            margin-left: 2%;
+        }
+
+        .unicItem {
+            display: inline-block;
+            margin: 3.5% 10px;
+            width: 30%;
+            text-align: center;
+            font-weight: normal;
+        }
+        .unicItem:hover {
+            cursor:pointer;
+        }
+        .itemIcon {
+            display: block;
+            margin: 1.5% 0.8%;
+            float: left;
+            text-align: left;
+        }
+
+        .itemName {
+            display: block;
+            margin: 1.5% 0.8%;
+            width: 80%;
+            font-size: 1.8vw;
+            color: #434343;
+            font-family: HelveticaNeue;
+            text-align: left;
+            text-transform: uppercase;
+        }
+
+        /*.itemName:first-letter {
+                color: orange;
+            }
+
+        .selected {
+            color: orange;
+        }
+
+            .selected:first-letter {
+                color: #434343;
+            }*/
+
+
+        .counters {
+            margin: 0 auto;
+            width: 100%;
+            font-weight: normal;
+            text-align: center;
+            background-color: rgba(73,75,99,1);
+        }
+
+        .countCont {
+            display: inline-block;
+            margin: 5% 7%;
+            width: 9%;
+            text-align: center;
+            font-weight: normal;
+            font-family: HelveticaNeue;
+            text-transform: uppercase;
+        }
+
+        .counters img {
+            display: block;
+            width: 100%;
+            margin: 1.5% 0.8%;
+        }
+
+        .countCont div {
+            width: 100%;
+            height: 40px;
+        }
+
+        .counter {
+            margin-top: 15%;
+            color: rgba(57,224,175,1);
+        }
+
+            .counter + div {
+                color: white;
+            }
+
+
+        .team {
+            margin: 0 auto;
+            width: 100%;
+            font-weight: normal;
+            text-align: center;
+        }
+
+                .teamHeading {
+            display: block;
+            text-align: center;
+            margin: 2.5% 0.8%;
+            width: 100%;
+        }
+
+            .teamHeading h1 {
+                color: #434343;
+                font-family: HelveticaNeue;
+                font-weight: 300;
+            }
+
+                .teamHeading h1 span.colored {
+                    color: #ff6a00;
+                }
+
+
+
+        .teamMate {
+            position:relative;
+            width: 30%;
+            display: inline-block;
+            text-align: center;
+            left:100%;
+            opacity:0;
+        }
+
+            .teamMate:first-child {
+                margin-left: 50px;
+            }
+
+        .teamIcon {
+            width: 100%;
+            display: block;
+            margin: 1.5% 0.8%;
+        }
+        .team img {
+            width: 50%;
+        }
+
+        .teamName {
+            display: block;
+            margin: 1.5% 0.8%;
+            width: 100%;
+            font-size: x-large;
+            color: #434343;
+            font-family: HelveticaNeue;
+        }
+
+        .teamSig {
+            display: block;
+            margin: 1.5% 0.8%;
+            width: 100%;
+            font-size: 14pt;
+            font-weight: 600;
+            color: darkgray;
+            font-family: HelveticaNeueUltraLight;
+            font-style:italic;
+        }
