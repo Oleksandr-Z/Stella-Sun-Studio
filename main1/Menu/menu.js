@@ -23,7 +23,7 @@
     var actualScroll = 1;
     $('div.down').click(function () {
         var temp = $('.scrollTo' + actualScroll++);
-        $.scrollTo(temp, 800, {offset:-110  });
+        $.scrollTo(temp, 800, {offset:-120  });
         if (actualScroll > 4) {
             actualScroll = 0;
         }
