@@ -54,10 +54,8 @@
             tBig = setTimeout(function () { p.addClass('active').fadeIn(1000) }, 2000);
             tSmall = setTimeout(function () { n.addClass('active').fadeIn(1000) }, 2500);
             tAnim = setTimeout(function () {
-                p.animate({ 'font-size': 0, top: p.css('font-size'), left: '130px', opacity: 0 }, 1000,
-                    function () { p.removeAttr('style'); });
-                n.animate({ 'font-size': 0, top: n.css('font-size'), left: '130px', opacity: 0 }, 1000,
-                    function () { n.removeAttr('style'); });
+                p.fadeOut(1000);
+                n.fadeOut(1000);
             }, 5000);
         };
 
